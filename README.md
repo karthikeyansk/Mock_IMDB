@@ -1,5 +1,16 @@
 # Mock_IMDB
+     This project mocks the behaviour of the imdb website api endpoints.Actors,Movies,
+     Producers are the entities used in this project.Below are list of available endpoints 
+      
+# Database Design 
+  ![dbdesign](https://user-images.githubusercontent.com/31660056/141492563-f862f89b-765e-4c59-b6ef-29114a18c93f.png)
+# Tables
+  *  Movie-Holds all movie details
+  *  Actor-Holds actor details
+  *  Producers-Hold producer details
+  *  MovieCast- Mapping table between movie and actors.Since movie and actors have many-many relationship
 
+# Enpoints Description
 HTTP Verb|Route | What really does
 ---|--- | --- 
 GET|/api/movie | List all movies
